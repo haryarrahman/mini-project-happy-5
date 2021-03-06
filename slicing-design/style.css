@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.side-nav{
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 68px;
+    height: 100vh;
+    background-color: #1A0931;
+}
+.logo img{
+    width: 28px;
+    margin: 20px;
+}
+
+.content{
+    width: calc(100%-68px);
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F3136; 
+    margin: 20px 50px;
+}
+.container-card{
+    margin-top: 4px;
+    margin-left: 50px;
+}
+.card{
+    width: 280px;
+    border: 1px solid #F2F2F4;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+.quarter{
+    margin-top:12px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #5D6372;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.month{
+    margin: 4px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5D6372;
+    line-height: 20px;
+}
+
+.task{
+    margin: 4px 12px;
+}
+.task .no-task{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #B7BDC9;
+}
+.sub-task{
+    margin: 12px 0;
+    border: 1px solid #E4E4E8;
+    border-radius: 4px; 
+    padding: 16px;
+}
+.title-task{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2F3136;
+    line-height: 20px;
+}
+
+.more{
+    padding-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more #progress{
+    display: flex;
+    align-items: center;
+}
+.more #progress p{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #5D6372;
+}
+.new-task{
+    margin-top: 4px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-weight: 400px;
+    color: #2F3136;
+    align-items: center;
+    display: flex;
+}
+.new-task #plus a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5E20B3;
+}
+.new-task #text-new-task a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #2F3136;
+}
